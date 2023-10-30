@@ -1,20 +1,20 @@
-*{
+* {
     margin: 0;
     padding: auto;
     box-sizing: border-box;
 }
 
-#canvas1{
+#canvas1 {
     background: url('../imgs/background.png');
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-#overlay{
+#overlay {
 
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
