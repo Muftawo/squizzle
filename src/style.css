@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+#canvas1{
+    background: url('../imgs/background.png');
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#overlay{
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
