@@ -9,6 +9,11 @@ window.addEventListener('load', function () {
             this.game = game;
 
         }
+        draw(context){
+            context.beginPath();
+            context.arc(400, 300 , 50 , 0 , Math.PI * 2)
+            context.fill();
+        }
     }
     class Game {
         constructor(canvas) {
@@ -18,7 +23,15 @@ window.addEventListener('load', function () {
             this.player = new Player(this)
         }
 
+        render(context){
+            this.player.draw(context);
+
+        }
+
     }
+
+    const game = new Game(canvas)
+    console.log(game)
 
     function animate() {
 
